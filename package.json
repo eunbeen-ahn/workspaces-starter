@@ -1,0 +1,10 @@
+{
+  "name": "zmon-frontend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
