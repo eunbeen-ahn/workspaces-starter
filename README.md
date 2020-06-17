@@ -1,4 +1,4 @@
-# zmon frontend project
+# zmon frontend workspace
 
 ## Overview
 yarn workspaces 를 사용하여 모듈간 참조
@@ -6,7 +6,9 @@ yarn workspaces 를 사용하여 모듈간 참조
 ├── packages
 │    ├── zmon-app
 │    │   └── package.json
-│    └── zmon-gnb
+│    ├── zmon-ui
+│    │   └── package.json
+│    └── zmon-ui-react
 │        └── package.json
 ├── node_modules
 ├── yarn.lock
